@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candela Party DJ - La Mejor Música para tu Evento</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght=600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="sticky-header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-compact-disc"></i> Candela Party DJ
+            </a>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                    <li><a href="#paquetes">Paquetes</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger-menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <h1>La música paerfecta para tus Momentos Inolvidables</h1>
+                <p>DJs profesionales para bodas, XV años, eventos corporativos y más.</p>
+                <a href="#contacto" class="btn btn-primary">¡Cotiza tu Evento Ahora!</a>
+            </div>
+        </section>
+
+        <section id="quienes-somos" class="section">
+            <div class="container about-container">
+                <div class="about-text">
+                    <h2>Sobre Candela Party DJ</h2>
+                    <p>Somos un colectivo de DJs apasionados por crear atmósferas únicas. Con más de 20 años de experiencia, entendemos que cada evento es diferente. Nuestra misión es simple: que tú y tus invitados no dejen de bailar. Mezclamos técnica, carisma y el mejor repertorio musical para garantizar un éxito total.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Equipo de DJs de Groove Masters">
+                </div>
+            </div>
+        </section>
+
+        <section id="paquetes" class="section section-dark">
+            <div class="container">
+                <h2 class="text-center">Nuestros Paquetes</h2>
+                <div class="packages-grid">
+                    <div class="package-card">
+                        <h3>Paquete Esencial</h3>
+                        <p class="price">$4,500 MXN</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> DJ por 4 horas</li>
+                            <li><i class="fas fa-check"></i> Equipo de audio básico</li>
+                            <li><i class="fas fa-check"></i> Luces ambientales</li>
+                        </ul>
+                        <button class="btn btn-secondary" data-package="esencial">Ver Detalles</button>
+                    </div>
+                    <div class="package-card">
+                        <h3>Paquete Fiesta Total</h3>
+                        <p class="price">$8,000 MXN</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> DJ por 5 horas</li>
+                            <li><i class="fas fa-check"></i> Audio profesional y cabina iluminada</li>
+                            <li><i class="fas fa-check"></i> Show de luces robóticas</li>
+                        </ul>
+                        <button class="btn btn-secondary" data-package="fiesta">Ver Detalles</button>
+                    </div>
+                    <div class="package-card featured">
+                        <span class="featured-tag">Más Popular</span>
+                        <h3>Paquete Premium</h3>
+                        <p class="price">$15,000 MXN</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> DJ y VJ por 6 horas</li>
+                            <li><i class="fas fa-check"></i> Pantalla LED y pirotecnia fría</li>
+                            <li><i class="fas fa-check"></i> Souvenirs para invitados</li>
+                        </ul>
+                        <button class="btn btn-primary" data-package="premium">Ver Detalles</button>
+                    </div>
+                    <div class="package-card">
+                        <h3>Boda de Ensueño</h3>
+                        <p class="price">$22,000 MXN</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Cobertura musical completa</li>
+                            <li><i class="fas fa-check"></i> DJ y Maestro de Ceremonias</li>
+                            <li><i class="fas fa-check"></i> Planificación personalizada</li>
+                        </ul>
+                        <button class="btn btn-secondary" data-package="boda">Ver Detalles</button>
+                    </div>
+                    <div class="package-card">
+                        <h3>Boda de Ensueño</h3>
+                        <p class="price">$22,000 MXN</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Cobertura musical completa</li>
+                            <li><i class="fas fa-check"></i> DJ y Maestro de Ceremonias</li>
+                            <li><i class="fas fa-check"></i> Planificación personalizada</li>
+                        </ul>
+                        <button class="btn btn-secondary" data-package="boda">Ver Detalles</button>
+                    </div>
+                    <div class="package-card">
+                        <h3>Boda de Ensueño</h3>
+                        <p class="price">$22,000 MXN</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Cobertura musical completa</li>
+                            <li><i class="fas fa-check"></i> DJ y Maestro de Ceremonias</li>
+                            <li><i class="fas fa-check"></i> Planificación personalizada</li>
+                        </ul>
+                        <button class="btn btn-secondary" data-package="boda">Ver Detalles</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="section">
+            <div class="container">
+                <h2 class="text-center">Momentos Inolvidables</h2>
+                <div class="gallery-grid">
+                    <img src="https://images.pexels.com/photos/2263436/pexels-photo-2263436.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Evento con DJ 1">
+                    <img src="https://images.pexels.com/photos/167491/pexels-photo-167491.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Evento con DJ 2">
+                    <img src="https://images.pexels.com/photos/2747446/pexels-photo-2747446.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Evento con DJ 3">
+                    <img src="https://images.pexels.com/photos/1387174/pexels-photo-1387174.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Evento con DJ 4">
+                    <img src="https://images.pexels.com/photos/3756498/pexels-photo-3756498.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Evento con DJ 5">
+                    <img src="https://images.pexels.com/photos/2111015/pexels-photo-2111015.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Evento con DJ 6">
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="section section-dark">
+            <div class="container">
+                <h2 class="text-center">Preguntas Frecuentes</h2>
+                <div class="faq-container">
+                    <details>
+                        <summary>¿Con cuánto tiempo de anticipación debo reservar?</summary>
+                        <p>Recomendamos reservar al menos con 3 meses de anticipación, especialmente en temporada alta. Sin embargo, no dudes en contactarnos para verificar disponibilidad de último minuto.</p>
+                    </details>
+                    <details>
+                        <summary>¿Puedo solicitar canciones específicas?</summary>
+                        <p>¡Claro que sí! Nos encanta personalizar la música. Antes del evento, te enviaremos un formulario para que nos indiques tus géneros y canciones favoritas, así como las que no quieres que suenen.</p>
+                    </details>
+                    <details>
+                        <summary>¿Viajan fuera de la ciudad?</summary>
+                        <p>Sí, ofrecemos nuestros servicios en toda la región. Los costos de viáticos se cotizan por separado dependiendo de la distancia y la logística requerida.</p>
+                    </details>
+                    <details>
+                        <summary>¿Qué equipo incluyen los paquetes?</summary>
+                        <p>Todos nuestros paquetes incluyen equipo de audio profesional. Dependiendo del paquete, se añaden elementos como cabina de DJ iluminada, luces robóticas, pantallas LED, máquinas de humo y más.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section">
+            <div class="container">
+                <h2 class="text-center">Reserva tu Fecha</h2>
+                <form id="booking-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre Completo</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Teléfono WhatsApp (10 dígitos)</label>
+                        <input type="tel" id="phone" required pattern="[0-9]{10}">
+                    </div>
+                    <div class="form-group">
+                        <label for="event-date">Fecha del Evento</label>
+                        <input type="date" id="event-date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="package-select">Paquete de Interés</label>
+                        <select id="package-select" required>
+                            <option value="" disabled selected>Elige un paquete...</option>
+                            <option value="Esencial">Paquete Esencial</option>
+                            <option value="Fiesta Total">Paquete Fiesta Total</option>
+                            <option value="Premium">Paquete Premium</option>
+                            <option value="Boda de Ensueño">Boda de Ensueño</option>
+                        </select>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="comments">Comentarios Adicionales</label>
+                        <textarea id="comments" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Enviar Solicitud por WhatsApp</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-about">
+                <a href="#" class="logo">
+                    <i class="fas fa-compact-disc"></i> Groove Masters
+                </a>
+                <p>Haciendo tus eventos inolvidables desde 2015.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                    <li><a href="#paquetes">Paquetes</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Síguenos</h4>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Candela Party DJ. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <div class="modal-overlay" id="package-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close-btn">&times;</button>
+            <div id="modal-body">
+                </div>
+        </div>
+    </div>
+
+    <a href="https://wa.me/5214776772422" target="_blank" class="floating-whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
