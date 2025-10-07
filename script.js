@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
         },
         fiesta: {
-            title: "Paquete Fiesta Total",
+            title: "Paquete Fiesta",
             price: "$8,000 MXN",
             description: "Eleva tu celebración a otro nivel. Ideal para cumpleaños, XV años y eventos corporativos que buscan energía y diversión.",
             features: [
@@ -35,18 +35,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Pantalla LED gigante para videos musicales y visuales.",
                 "2 disparos de pirotecnia fría (chisperos).",
                 "Souvenirs de animación (globos, antifaces, etc.)."
-            ]
-        },
-        boda: {
-            title: "Paquete Boda de Ensueño",
-            price: "$22,000 MXN",
-            description: "Un servicio de lujo diseñado para el día más importante de tu vida. Cubrimos cada detalle musical de tu boda.",
-            features: [
-                "Cobertura musical completa: ceremonia, cóctel y recepción (hasta 7 horas).",
-                "DJ experto en bodas y Maestro de Ceremonias.",
-                "Planificación musical personalizada y reuniones previas.",
-                "Equipo de audio y video de la más alta gama.",
-                "Iluminación arquitectónica para decorar el salón."
             ]
         }
     };
@@ -111,10 +99,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // **IMPORTANTE: Reemplaza este número con tu número de WhatsApp real**
         // Incluye el código de país (52 para México) y el 1 después.
-        const yourWhatsAppNumber = '5211234567890';
+        const yourWhatsAppNumber = '5214776772422';
 
         const message = `
-¡Hola Groove Masters! ✨
+¡Hola Candela Party DJ! 🔥
 Quisiera cotizar un evento.
 
 👤 *Nombre:* ${name}
